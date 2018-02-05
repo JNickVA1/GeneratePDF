@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Pages>
+  <Page Pagenumber="1">
+	<Pagesize>612X792</Pagesize>
+	<Condition>[Function:if %%1_Language%% == "E"]</Condition>
+	<Overflow>true</Overflow>
+	<Image Imagename="BackGroundImage.jpg" Xstart="0" XEnd="612" YStart="0" YEnd="792"></Image>
+	<Zones>
+	  <Zone Zonename="Zone 1" Xstart="100" XEnd="300" YStart="100" YEnd="300"></Zone>
+	  <Zone Zonename="2" Xstart="300" XEnd="400" YStart="100" YEnd="300"></Zone>
+	  <Zone Zonename="Zone3" Xstart="400" XEnd="500" YStart="100" YEnd="600">
+		<Parts>
+		  <Part Partname="1" Xstart="100" XEnd="300" YStart="100" YEnd="300"></Part>
+		  <Part Partname="2" Xstart="100" XEnd="300" YStart="500" YEnd="600"></Part>
+		</Parts>
+	  </Zone>
+	  <Zone Zonename="4" Xstart="500" XEnd="600" YStart="100" YEnd="300"></Zone>
+	</Zones>
+  </Page>
+  <Page Pagenumber="2">
+	<Pagesize>612X792</Pagesize>
+	<Condition>[Function:if %%1_Language%% == "E"]</Condition>
+  </Page>
+</Pages>

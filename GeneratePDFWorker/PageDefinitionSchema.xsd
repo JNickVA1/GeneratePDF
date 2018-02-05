@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Pages">
+	<xs:complexType mixed="true">
+	  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+		<xs:element name="Page">
+		  <xs:complexType>
+			<xs:sequence>
+			  <xs:element name="Pagesize" type="xs:string" minOccurs="1" maxOccurs="1" nillable="false" />
+			  <xs:element name="Condition" type="xs:string" minOccurs="1" maxOccurs="1" nillable="true" />
+			  <xs:element name="Overflow" type="xs:boolean" minOccurs="0" maxOccurs="1" nillable="true" />
+			  <xs:element name="Image" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+				  <xs:attribute name="Imagename" type="xs:string" use="required" />
+				  <xs:attribute name="Xstart" type="xs:unsignedShort" use="required" />
+				  <xs:attribute name="XEnd" type="xs:unsignedShort" use="required" />
+				  <xs:attribute name="YStart" type="xs:unsignedShort" use="required" />
+				  <xs:attribute name="YEnd" type="xs:unsignedShort" use="required" />
+				</xs:complexType>
+			  </xs:element>
+			  <xs:element name="Zones" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+				  <xs:sequence>
+					<xs:element maxOccurs="10" name="Zone" minOccurs="1">
+					  <xs:complexType>
+						<xs:sequence>
+						  <xs:element name="Parts" minOccurs="0" maxOccurs="1">
+							<xs:complexType>
+							  <xs:sequence minOccurs="0">
+								<xs:element name="Part" maxOccurs="5">
+								  <xs:complexType>
+									<xs:attribute name="Partname" type="xs:string" use="required" />
+									<xs:attribute name="Xstart" type="xs:unsignedShort" use="required" />
+									<xs:attribute name="XEnd" type="xs:unsignedShort" use="required" />
+									<xs:attribute name="YStart" type="xs:unsignedShort" use="required" />
+									<xs:attribute name="YEnd" type="xs:unsignedShort" use="required" />
+								  </xs:complexType>
+								</xs:element>
+							  </xs:sequence>
+							</xs:complexType>
+						  </xs:element>
+						</xs:sequence>
+						<xs:attribute name="Zonename" type="xs:string" use="required" />
+						<xs:attribute name="Xstart" type="xs:unsignedShort" use="required" />
+						<xs:attribute name="XEnd" type="xs:unsignedShort" use="required" />
+						<xs:attribute name="YStart" type="xs:unsignedShort" use="required" />
+						<xs:attribute name="YEnd" type="xs:unsignedShort" use="required" />
+					  </xs:complexType>
+					</xs:element>
+				  </xs:sequence>
+				</xs:complexType>
+			  </xs:element>
+			</xs:sequence>
+			<xs:attribute name="Pagenumber" type="xs:unsignedShort" use="required" />
+		  </xs:complexType>
+		</xs:element>
+	  </xs:sequence>
+	</xs:complexType>
+  </xs:element>
+</xs:schema>

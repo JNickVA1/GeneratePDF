@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratePDFConsole", "GeneratePDF\GeneratePDFConsole.csproj", "{D982C1FB-5C92-416B-BFC3-D7986ED3CCF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratePDFWorker", "GeneratePDFWorker\GeneratePDFWorker.csproj", "{DD5AA869-5D11-4D64-8DA8-BB86B311FE44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{95A31B2C-0E95-4AA5-81A3-66E18C177EB0}"
+	ProjectSection(SolutionItems) = preProject
+		TestFiles\Content.txt = TestFiles\Content.txt
+		TestFiles\CustomerData.xml = TestFiles\CustomerData.xml
+		TestFiles\PageDefinition.txt = TestFiles\PageDefinition.txt
+		TestFiles\PageDefinition.xml = TestFiles\PageDefinition.xml
+		TestFiles\Variables.txt = TestFiles\Variables.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D982C1FB-5C92-416B-BFC3-D7986ED3CCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D982C1FB-5C92-416B-BFC3-D7986ED3CCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D982C1FB-5C92-416B-BFC3-D7986ED3CCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D982C1FB-5C92-416B-BFC3-D7986ED3CCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5AA869-5D11-4D64-8DA8-BB86B311FE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5AA869-5D11-4D64-8DA8-BB86B311FE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5AA869-5D11-4D64-8DA8-BB86B311FE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5AA869-5D11-4D64-8DA8-BB86B311FE44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://nicholsonsoftware.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GeneratePDF\\GeneratePDFConsole.csproj
+		SccProjectName1 = GeneratePDF
+		SccLocalPath1 = GeneratePDF
+		SccProjectUniqueName2 = GeneratePDFWorker\\GeneratePDFWorker.csproj
+		SccProjectName2 = GeneratePDFWorker
+		SccLocalPath2 = GeneratePDFWorker
+	EndGlobalSection
+EndGlobal

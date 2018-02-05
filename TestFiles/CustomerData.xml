@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<Invoices>
+   <Invoice>
+	  <ID>1</ID>
+	  <TransactionDate>11/01/2015</TransactionDate>
+	  <Language>E</Language>
+      <Company>Company ABC</Company>
+      <add1>123 Somewhere St</add1>
+      <City>Toronto</City>
+      <State>FL</State>
+	  <ZIP>1234</ZIP>
+	  <BilltoCompany>Bill to Company 1</BilltoCompany>
+      <Billtoadd1>123 Bill to St 1</Billtoadd1>
+      <BilltoCity>Montreal</BilltoCity>
+      <BilltoState>NC</BilltoState>
+	  <BilltoZIP>9999</BilltoZIP>
+	  <ShiptoCompany>Ship to Company 1</ShiptoCompany>
+      <Shiptoadd1>123 Ship to St</Shiptoadd1>
+      <ShiptoCity>Vancouver</ShiptoCity>
+      <ShiptoState>SC</ShiptoState>
+	  <ShiptoZIP>7777</ShiptoZIP>
+	  <SM>Peter Smith</SM>
+		<items>
+			<item>
+				<Description>Account summary</Description>
+				<UnitPrice></UnitPrice>
+			</item>
+			<item>
+				<Description>Beginning Balance</Description>
+				<UnitPrice>$1000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Credits and Payments</Description>
+				<UnitPrice>$2000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Purchases and other charges</Description>
+				<UnitPrice>$3000.00</UnitPrice>
+			</item>	
+			<item>
+				<Description>Cash Advances</Description>
+				<UnitPrice>$4000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Finance Charges</Description>
+				<UnitPrice>$100.00</UnitPrice>
+			</item>		
+			<item>
+				<Description>New Balance of Feb 1 2016</Description>
+				<UnitPrice>$6000.00</UnitPrice>
+			</item>
+		</items>
+		<GST>15.00</GST>
+		<Total>200.00</Total>
+   </Invoice>
+   <Invoice>
+	  <ID>2</ID>
+	  <TransactionDate>12/01/2015</TransactionDate>
+	  <Language>E</Language>
+	 <Company>Company ABC</Company>
+      <add1>123 Somewhere St</add1>
+      <City>Toronto</City>
+      <State>FL</State>
+	  <ZIP>1234</ZIP>
+	  <BilltoCompany>Bill to Company 2</BilltoCompany>
+      <Billtoadd1>123 Bill to St 2</Billtoadd1>
+      <BilltoCity>Montreal</BilltoCity>
+      <BilltoState>NC</BilltoState>
+	  <BilltoZIP>8888</BilltoZIP>
+	  <ShiptoCompany>Ship to Company 2</ShiptoCompany>
+      <Shiptoadd1>123 Ship to St 2</Shiptoadd1>
+      <ShiptoCity>Vancouver</ShiptoCity>
+      <ShiptoState>SC</ShiptoState>
+	  <ShiptoZIP>2222</ShiptoZIP>
+	  	  <SM>john Stone</SM>
+		<items>
+			<item>
+				<Description>Account summary</Description>
+				<UnitPrice></UnitPrice>
+			</item>
+			<item>
+				<Description>Beginning Balance</Description>
+				<UnitPrice>$1000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Credits and Payments</Description>
+				<UnitPrice>$2000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Purchases and other charges</Description>
+				<UnitPrice>$3000.00</UnitPrice>
+			</item>	
+			<item>
+				<Description>Cash Advances</Description>
+				<UnitPrice>$4000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Finance Charges</Description>
+				<UnitPrice>$100.00</UnitPrice>
+			</item>		
+			<item>
+				<Description>New Balance of Feb 1 2016</Description>
+				<UnitPrice>$6000.00</UnitPrice>
+			</item>
+		</items>
+		<GST>14.00</GST>
+		<Total>98.00.00</Total>
+   </Invoice>
+   <Invoice>
+	  <ID>3</ID>
+	  <TransactionDate>01/22/2015</TransactionDate>
+	  <Language>F</Language>
+	 <Company>Company ABC</Company>
+      <add1>123 Somewhere St</add1>
+      <City>Toronto</City>
+      <State>FL</State>
+	  <ZIP>1234</ZIP>
+	  <BilltoCompany>Bill to Company 3</BilltoCompany>
+      <Billtoadd1>123 Bill to St 3</Billtoadd1>
+      <BilltoCity>Montreal</BilltoCity>
+      <BilltoState>NC</BilltoState>
+	  <BilltoZIP>8888</BilltoZIP>
+	  <ShiptoCompany>Ship to Company 3</ShiptoCompany>
+      <Shiptoadd1>123 Ship to St 3</Shiptoadd1>
+      <ShiptoCity>Vancouver</ShiptoCity>
+      <ShiptoState>SC</ShiptoState>
+	  <ShiptoZIP>2222</ShiptoZIP>
+	  <SM>Shawn jacob</SM>
+		<items>
+			<item>
+				<Description>Account summary</Description>
+				<UnitPrice></UnitPrice>
+			</item>
+			<item>
+				<Description>Beginning Balance</Description>
+				<UnitPrice>$1000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Credits and Payments</Description>
+				<UnitPrice>$2000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Purchases and other charges</Description>
+				<UnitPrice>$3000.00</UnitPrice>
+			</item>	
+			<item>
+				<Description>Cash Advances</Description>
+				<UnitPrice>$4000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Finance Charges</Description>
+				<UnitPrice>$100.00</UnitPrice>
+			</item>		
+			<item>
+				<Description>New Balance of Feb 1 2016</Description>
+				<UnitPrice>$6000.00</UnitPrice>
+			</item>
+		</items>
+		<GST>150.00</GST>
+		<Total>3500.00</Total>
+   </Invoice>
+   <Invoice>
+      <ID>4</ID>
+	  <TransactionDate>06/31/2016</TransactionDate>
+	  <Language>E</Language>
+	 <Company>Company ABC</Company>
+      <add1>123 Somewhere St</add1>
+      <City>Toronto</City>
+      <State>FL</State>
+	  <ZIP>1234</ZIP>
+	  <BilltoCompany>Bill to Company 4</BilltoCompany>
+      <Billtoadd1>123 Bill to St 4</Billtoadd1>
+      <BilltoCity>Montreal</BilltoCity>
+      <BilltoState>NC</BilltoState>
+	  <BilltoZIP>8888</BilltoZIP>
+	  <ShiptoCompany>Ship to Company 4</ShiptoCompany>
+      <Shiptoadd1>123 Ship to St 4</Shiptoadd1>
+      <ShiptoCity>Vancouver</ShiptoCity>
+      <ShiptoState>SC</ShiptoState>
+	  <ShiptoZIP>2222</ShiptoZIP>
+	  	  <SM>Shawn jacob</SM>
+		<items>
+			<item>
+				<Description>Account summary</Description>
+				<UnitPrice></UnitPrice>
+			</item>
+			<item>
+				<Description>Beginning Balance</Description>
+				<UnitPrice>$1000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Credits and Payments</Description>
+				<UnitPrice>$2000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Purchases and other charges</Description>
+				<UnitPrice>$3000.00</UnitPrice>
+			</item>	
+			<item>
+				<Description>Cash Advances</Description>
+				<UnitPrice>$4000.00</UnitPrice>
+			</item>
+			<item>
+				<Description>Finance Charges</Description>
+				<UnitPrice>$100.00</UnitPrice>
+			</item>		
+			<item>
+				<Description>New Balance of Feb 1 2016</Description>
+				<UnitPrice>$6000.00</UnitPrice>
+			</item>
+		</items>
+	<GST>250.00</GST>
+	<Total>4000.00</Total>
+   </Invoice>
+</Invoices>

@@ -1,0 +1,7 @@
+1_Z1_P2|[Function:if %%1_Language%% == "E"]|T|<p name=LineSpacing13><t name=Arial_Bold_10>%%1%%<t name=Arial_Bold_10>|
+1_Z2_P2|[Function:if %%1_Language%% == "E"]|T|<t name=Normal><p name=Bulleted-2-bul><t name=Arial_Regular_10>Plaquenil® (hydroxychloroquine)<p name=Bulleted-2-bul><t name=Arial_Bold_10>Arava® (leflunomide)|
+1_Z3_P2|[Function:if %%1_Language%% == "E"]|T|<p name=LineSpacing12><t name=Normal><t name=Arial_Italic_10>TO: %%3%%<br/><t name=Arial_Regular_10>FAX: %%2%%<t name=Normal><p name=LineSpacing12><t name=Normal>Pages:<p name=DEFAULT><t name=Normal> |
+1_Z4_P1|[Function:if %%1_Language%% == "E"]|T|<p name=LineSpacing13><t name=FrutigerLight_10>%%4%%<t name=Arial_Bold_10>|
+1_Z1_P1|[Function:if %%1_Language%% == "E"]|G|2015_UHC_Logo_grayscale.jpg|
+1_Z2_P1|[Function:if %%1_Language%% == "E"]|items|<TABLE BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3"><TR><TH COLSPAN="2"><BR><H3>%%1_Description%%</H3></TH></TR><TR><TD>%%1_Description%%</TD><TD>%%1_UnitPrice%%</TD></TR><TR ALIGN="CENTER"><TD>%%1_Description%%</TD><TD>%%1_UnitPrice%%</TD></TR></TABLE>|
+1_Z3_P1|[Function:if %%1_Language%% == "E"]|G|F77.jpg|

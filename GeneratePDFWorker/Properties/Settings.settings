@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GeneratePDFWorker.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OutputLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\GeneratePdf\Output</Value>
+    </Setting>
+    <Setting Name="TestFilesLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\GeneratePdf\TestFiles</Value>
+    </Setting>
+    <Setting Name="ImageFilesLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\GeneratePdf\Images</Value>
+    </Setting>
+    <Setting Name="InputLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\GeneratePdf\Input</Value>
+    </Setting>
+    <Setting Name="PageDefinitionsSchema" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PageDefinitionSchema.xsd</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
